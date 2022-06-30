@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c4dceba1-dcd0-4b48-b32c-ee65946760d7/df8c7gv-0337850f-5445-4171-b4f4-3cd4d95533c3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M0ZGNlYmExLWRjZDAtNGI0OC1iMzJjLWVlNjU5NDY3NjBkN1wvZGY4Yzdndi0wMzM3ODUwZi01NDQ1LTQxNzEtYjRmNC0zY2Q0ZDk1NTMzYzMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.aTq_0KaIbb7xPzd0PWPADeQsLDqCXkMncuFWYXgtPpU");
+    background-size: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add {
+    background-color: #ed9b80;
+    border-radius: 3px;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 49rem;
+    right: 45rem;
+}
+
+.note {
+    background-color: rgb(232, 162, 162);
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.note .tools {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.note .main {
+    background-color: #eee;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+}
+
+.note .hidden {
+    display: none;
+}
